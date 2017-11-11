@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6f3602">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/chocblock" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:scaleY="1.5"
+        android:src="@drawable/chocwrap" />
+
+
+    <TextView
+        android:id="@+id/feeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="Feeling"
+        android:textColor="#e0f7fa"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/down2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/down1"
+        android:layout_marginLeft="64dp"
+        android:fontFamily="casual"
+        android:text="Down?"
+        android:textColor="#40ceffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/down1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/down"
+        android:layout_marginLeft="45dp"
+        android:fontFamily="casual"
+        android:text="Down?"
+        android:textColor="#80ceffff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/feeling"
+        android:layout_alignLeft="@id/feeling"
+        android:layout_marginBottom="-60dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="casual"
+        android:text="Down?"
+        android:textColor="#e0f7fa"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:background="#b9f6ca"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="CHOCOLATE!"
+        android:textColor="#1b5e20"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="6dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="CHOCOLATE!"
+        android:textColor="#f06292"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/chocolate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="monospace"
+        android:text="have some"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
