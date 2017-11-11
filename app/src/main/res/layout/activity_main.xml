@@ -264,7 +264,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="CHOCOLATE!"
-        android:textColor="#f06292"
+        android:textColor="#ff8838"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -273,11 +273,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/chocolate"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="monospace"
-        android:text="have some"
+        android:layout_marginBottom="-8dp"
+        android:fontFamily="cursive"
+        android:text="have  some"
         android:textColor="#ffffff"
-        android:textSize="40sp"
+        android:textSize="60sp"
         android:textStyle="bold" />
 
 
